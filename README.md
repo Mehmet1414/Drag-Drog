@@ -1,1 +1,1 @@
-<img src="Drag%Drop.gif"></img>
+<img src="Drag&Drop.gif"></img>
