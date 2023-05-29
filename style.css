@@ -12,6 +12,14 @@
     align-items: center;
     background-color: #0b0423;
 }
+.left, .right{
+    
+}
+h2{
+    color: #ffffffba;
+    padding-bottom: 10px;
+    text-align: center;
+}
 #leftBox, 
 #rightBox{
     width: 300px;

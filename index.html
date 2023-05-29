@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drag&Drog</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
+      <div class="left">
+        <h2>Planlanan Görevler</h2>
         <div id="leftBox">
-            <div class="list" draggable="true">° item #1</div>
-            <div class="list" draggable="true">° item #2</div>
-            <div class="list" draggable="true">° item #3</div>
-            <div class="list" draggable="true">° item #4</div>
-            <div class="list" draggable="true">° item #5</div>
+          <div class="list" draggable="true">° item #1</div>
+          <div class="list" draggable="true">° item #2</div>
+          <div class="list" draggable="true">° item #3</div>
+          <div class="list" draggable="true">° item #4</div>
+          <div class="list" draggable="true">° item #5</div>
         </div>
+      </div>
+      <div class="right">
+        <h2>Tamamlanan Görevler</h2>
         <div id="rightBox"></div>
+      </div>
     </div>
 
-
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

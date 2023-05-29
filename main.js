@@ -2,7 +2,7 @@ const lists = document.getElementsByClassName("list");
 const leftBox = document.getElementById("leftBox");
 const rightBox = document.getElementById("rightBox");
 
-for (list of lists) {
+for (const list of lists) {
   list.addEventListener("dragstart", function (e) {
     let selectedElement = e.target;
 
@@ -11,6 +11,7 @@ for (list of lists) {
     });
     rightBox.addEventListener("drop", function () {
       rightBox.appendChild(selectedElement);
+      selectedElement.style.backgroundColor = "green";
       selectedElement = null;
     });
 
@@ -20,6 +21,7 @@ for (list of lists) {
 
     leftBox.addEventListener("drop", function () {
       leftBox.appendChild(selectedElement);
+      selectedElement.style.backgroundColor = "crimson";
       selectedElement = null;
     });
   });
